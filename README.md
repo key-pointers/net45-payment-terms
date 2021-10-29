@@ -17,7 +17,7 @@ This will enable Net45 offline payment method in Magento using correct interface
 
 ### Type 1: Zip file
 
- - Unzip the zip file in `app/code/KeyPointers`
+ - Unzip the zip file in `app/code/KeyPointers/Net45`
  - Enable the module by running `php bin/magento module:enable KeyPointers_Net45`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
