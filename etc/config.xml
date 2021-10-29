@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<payment>
+			<keypointers_net45>
+				<active>1</active>
+                <order_status>pending</order_status>
+                <allowspecific>0</allowspecific>
+                <title><![CDATA[Terms (Net45)]]></title>
+                <model>KeyPointersNet45Virtual</model>
+                <group>offline</group>
+                <can_use_internal>1</can_use_internal>
+                <can_use_checkout>1</can_use_checkout>
+                <is_offline>1</is_offline>
+			</keypointers_net45>
+		</payment>
+	</default>
+</config>
