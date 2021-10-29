@@ -1,4 +1,4 @@
-# Mage2 Module KeyPointers Net45
+# KeyPointers Magento2 Offline Payment module for Net45
 
     ``keypointers/module-net45``
 
@@ -10,7 +10,7 @@
 
 
 ## Main Functionalities
-This will enable Net45 offline payment method in Magento using correct interfaces
+This will enable Net45 offline payment method in Magento using correct interfaces instead of using depricated classes
 
 ## Installation
 \* = in production please use the `--keep-generated` option
