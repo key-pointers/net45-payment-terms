@@ -1,0 +1,20 @@
+{
+    "name": "keypointers/module-net45",
+    "description": "This will enable Net45 offline payment method in Magento using correct interfaces",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "7.4.*",
+        "magento/module-store": "*",
+        "magento/module-checkout": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "KeyPointers\\Net45\\": ""
+        }
+    }
+}
