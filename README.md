@@ -37,4 +37,4 @@ This will enable Net45 offline payment method in Magento using correct interface
 ## Attributes
 
 
-https://www.key-pointers.com/
+https://www.key-pointers.com/magento/still-using-deprecated-class-for-creating-offline-payment-method/
